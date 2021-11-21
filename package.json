@@ -1,0 +1,17 @@
+{
+  "name": "lab4_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "newman": "5.2.2",
+    "newman-reporter-htmlextra": "^1.20.3"
+    },
+  "test" : "npx newman run GoRest.postman_collection.json",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
